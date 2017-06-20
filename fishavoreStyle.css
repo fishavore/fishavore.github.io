@@ -1,48 +1,65 @@
 ﻿/* Created by fishavore on 2016-06-10 */
+/* Updated on 2017-06-19 */
 
-/* AliceBlue - #F0F8FF */
+/* Color reference: http://encycolorpedia.com/fafcf8 */
+/* Format reference: https://developer.microsoft.com/en-US/windows/downloads/windows-10-sdk */
+/* Font reference: http://www.w3schools.com/cssref/css_websafe_fonts.asp */
+
 body {
-	background-color: #F0F8FF;
-    margin-left: 6em;
-    margin-right: 6em;
-	margin-top: 6em;
-	margin-bottom: 6em;
+	background-color: #fafcf8;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-left: 6.0em;
+	margin-right: 6.0em;
+	margin-top: 6.0em;
+	margin-bottom: 6.0em;
 }
 
-/* Lavender - #E6E6FA */
 /* Reference: http://css-discuss.incutio.com/wiki/Horizontal_Line */
 div.hr {
-	background-color: #E6E6FA;
+	background-color: #bbd6a0;
 	border: none;
-	color: #E6E6FA;
-	height: 0.25em;
-	margin-bottom: 2em;
-	margin-top: 2em;
+	color: #bbd6a0;
+	height: 0.1em;
+	margin-bottom: 1.0em;
+	margin-top: -0.5em;
 }
 div.hr hr {
 	display: none;
 }
 
-/* Reference: http://www.w3schools.com/cssref/css_websafe_fonts.asp */
-p {
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+/* Reference: http://stackoverflow.com/questions/19988970/text-indent-doesnt-work-with-anchor-tag */div.indent {
+	display:block;
+	margin-top: 1.0em;
+	text-indent: 2.0em;
+}
+
+a:link {
+    color: #69b4ff;
+}
+
+/* Brown */
+a:visited {
+    color: #964b00;
+}
+
+a:hover {
+    color: #0f86fe;
+}
+
+a:active {
+     color: #f07901;
 }
 
 h1 {
-	font-family: "Arial Black", Gadget, sans-serif;
+	color: #373837;
 }
 
 h2, h3 {
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-}
-
-/* Reference: http://stackoverflow.com/questions/19988970/text-indent-doesnt-work-with-anchor-tag */div.indent {
-	display:block;
-	margin-top: 1em;
-	text-indent: 2em;
+	color: #373837;
+	margin-top: 2.0em;
 }
 
 /* Reference: http://html5.saila.com/webdesign/tips/li-space/ */
 li {
-	margin-top: 1em;
+	margin-top: 1.0em;
 }

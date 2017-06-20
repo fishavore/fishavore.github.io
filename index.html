@@ -8,29 +8,38 @@
     </head>
     <body>
         <h1>fishavore on GitHub</h1>
+		<div class="hr"><hr /></div>
 		<h2>SSIS Package Reader</h2>
-        <p>SSIS Package Reader documents SSIS package contents. It is a program that I created to help discover the contents of packages during Microsoft SQL Server migration.</p>
+		<div class="hr"><hr /></div>
+        <p>SSIS Package Reader documents Microsoft SQL Server Integration Services (SSIS) package contents. It is a C# program that I created to help discover the contents of packages during SQL Server migration.</p>
 		<p>You can find the SSIS Package Reader program on my GitHub repository:
-			<div class="indent">
-				<a href="https://github.com/fishavore/SsisPackageReader">https://github.com/fishavore/SsisPackageReader</a>
-			</div>
+			<div class="indent"><a href="https://github.com/fishavore/SsisPackageReader">https://github.com/fishavore/SsisPackageReader</a></div>
 		</p>
-		<div class="hr">
-			<hr />
-		</div>
+		<h3>Requirement</h3>
+		<div class="hr"><hr /></div>
+		<p>To successfully read SSIS package contents, connectors, such as Microsoft Connectors v2.0 for Oracle and Teradata, that were used to create the package are required on the computer you want to run this program.</p>
 		<h3>How to use SSIS Package Reader</h3>
+		<div class="hr"><hr /></div>
 		<p>
 			<ol>
-				<li>Start SSIS Package Reader.
-					<div class="indent">
-						<b>Note:</b>&nbsp;Binary files are excluded from the project files.
-					</div>
+				<li>Clone or download SSIS Package Reader from the repository.</li>
+				<li>Compile the program.
+					<div class="indent"><b>Note:</b>&nbsp;The latest project files were created with Microsoft Visual Studio 2012 and .NET Framework 4.5.</div>
 				</li>
+				<li>Start SSIS Package Reader.</li>
 				<li>On the <b>File</b> menu, click <b>Open</b>.</li>
 				<li>In the <b>Browse For Folder</b> dialog box, choose a folder that contains SSIS package files, and then click <b>OK</b>. All contents based on the supported tasks are displayed.</li>
 				<li>To search for a specific task, type the text that you want SSIS Package Reader to search for in the <b>Search Term</b> box, and then click <b>Search</b>.</li>
 				<li>To display all contents again based on the supported tasks in the selected folder, click <b>Search All</b>.</li>
 			</ol>
+		</p>
+		<h3 id="limitation">Limitations</h3>
+		<div class="hr"><hr /></div>
+		<p>Currently, the following types of SSIS tasks are supported:
+			<ul>
+				<li>Data Flow Task</li>
+				<li>Execute SQL Task</li>
+			</ul>
 		</p>
     </body>
 </html>
