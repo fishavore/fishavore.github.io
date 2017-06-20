@@ -34,7 +34,7 @@ div.hr hr {
 }
 
 a:link {
-    color: #69b4ff;
+    color: #0f86fe;
 }
 
 /* Brown */
@@ -43,7 +43,7 @@ a:visited {
 }
 
 a:hover {
-    color: #0f86fe;
+    color: #69b4ff;
 }
 
 a:active {
